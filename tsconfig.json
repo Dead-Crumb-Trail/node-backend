@@ -1,0 +1,29 @@
+{
+    "exclude": [
+        "src/**/*.test.ts",
+        "src/scripts",
+        "test",
+        "jest.config.ts",
+        "jest.e2e.config.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "lib": [
+            "esnext"
+        ],
+        "incremental": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "allowJs": false,
+        "checkJs": false,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+}
